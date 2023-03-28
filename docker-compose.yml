@@ -12,5 +12,5 @@ services:
     ports:
       - "5080:8080"
     image: amouat/dnmonster:1.0
-
-
+  redis:
+    image: redis:3.0
